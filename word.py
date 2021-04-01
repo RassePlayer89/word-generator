@@ -4,7 +4,7 @@ import sys
 ## print("Argument List:" + str(sys.argv))
 
 if ( len( sys.argv) < 3):
-    print("Usage: " + sys.argv[0] + " charaters and magic letter")
+    print("Usage: " + sys.argv[0] + " characters and magic letter")
     quit(0)
 
 iStr = sys.argv[1]
