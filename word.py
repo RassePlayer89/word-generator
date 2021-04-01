@@ -14,8 +14,8 @@ inputArray = list( iStr )
 wordsFound = []
 
 print("Finding words that can be generated from characters: " + iStr)
-
-file1 = open('C:/Users/rasmu/Documents/linux.words', 'r')
+##set the file1 to open the linux.words word list
+file1 = open('', 'r')
 Lines = file1.readlines()
 
 for line in Lines:
